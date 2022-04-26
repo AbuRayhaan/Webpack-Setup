@@ -14,8 +14,8 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin ({
-       //title: 'Development',
-      template: '.src/index.html',
+      title: 'Development',
+      //template: '.src/index.html',
     }),
   ],
 
@@ -24,11 +24,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     // clean: true,
   },
-
+/*
   optimization: {
     runtimeChunk: 'single',
   },
-  
+*/  
   module: {
     rules: [
       {
